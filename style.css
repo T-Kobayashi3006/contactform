@@ -1,0 +1,89 @@
+/* -----------------------------------
+   共通設定
+----------------------------------- */
+
+/* フォント指定 */
+body {
+    font-family: "Hiragino Kaku Gothic ProN", "メイリオ", sans-serif;
+}
+
+/* 見出しタイトル */
+.title {
+    width: 450px;
+    margin: 30px auto 20px;
+    padding: 5px 15px;
+    background-color: #f1f1f1;
+    border-left: 4px solid #ff0000;
+    font-size: 20px;
+}
+
+/* 各画面 共通の枠 */
+.content {
+    width: 450px;
+    margin: 0 auto;
+    padding: 25px 15px;
+    border: 2px solid #ebebeb;
+    border-radius: 10px;
+    background-color: #fbfbfb;
+}
+
+/* 入力欄共通デザイン */
+.form-input {
+    width: 300px;
+    margin-bottom: 16px;
+    padding: 5px;
+    border: 1px solid #dfdfdf;
+    background-color: #ffffff;
+    color: #333333;
+    font-size: 14px;
+}
+
+/* 入力欄の高さを指定 */
+.form-input-large {
+    height: 130px;
+}
+
+/* -----------------------------------
+   ボタン類
+----------------------------------- */
+
+/* 共通ボタンデザイン */
+.button {
+    display: block;
+    padding: 4px 10px;
+    border: 1px solid #d3d3d3;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 14px;
+}
+
+/* 送信・確認ボタン（オレンジ） */
+.button-next {
+    border-bottom: 2px solid #e08600;
+    background-color: #ff8c00;
+}
+
+/* 戻るボタン（グレー） */
+.button-back {
+    border-bottom: 2px solid #808080;
+    background-color: #bfbfbf;
+}
+
+/* ボタンの配置（横並び） */
+.button-group {
+    display: flex;
+    column-gap: 15px;
+    margin-top: 10px;
+}
+
+/* -----------------------------------
+   メッセージ表示
+----------------------------------- */
+.show-data {
+    margin-top: 15px;
+}
+
+.show-data p {
+    margin: 0;
+    margin-bottom: 15px;
+}
